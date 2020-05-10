@@ -64,15 +64,6 @@ body {
   height: 100vh;
 }
 
-/* Give every child element its grid name */
-.header {
-  grid-area: header;
-}
-
-.footer {
-  grid-area: footer;
-}
-
 .header,
 .footer {
   display: flex;
@@ -80,6 +71,16 @@ body {
   justify-content: space-between;
   padding: 0 16px;
   background-color: #648ca6;
+}
+
+/* Give every child element its grid name */
+.header {
+  grid-area: header;
+}
+
+/* Make room for the menu icon on mobile */
+.header__search {
+  margin-left: 42px;
 }
 
 .menu-icon {
@@ -158,9 +159,33 @@ body {
   height: 265px;
 }
 
-/* Make room for the menu icon on mobile */
-.header__search {
-  margin-left: 42px;
+.footer {
+  grid-area: footer;
+}
+
+.footer__copyright {
+  display: flex;
+  align-items: center;
+}
+
+
+.footer__copyright a {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.footer_github-icon {
+  border-radius: 50%;
+  padding: 0 8px;
+  font-size: 1.4em;
+}
+
+
+.footer__copyright a:hover {
+  color: rgb(61, 61, 61);
 }
 
 @media only screen and (min-width: 46.875em) {
