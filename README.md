@@ -4,16 +4,15 @@ Creating basic dashboard with Vanilla CSS, Javascript, HTML.
 
 Link: https://css-grid-flexbox-responsive-tascigorkem.netlify.app/
 
-
-#### Web:
-<p align="center">
+<div align="center">
+<h4>Web</h4>
   <img src="./docs/gifs/web-screencast.gif" alt="project structure" width="800"/>
-</p>
+</div>
   
-#### Mobile:
-<p align="center">
+<div align="center">
+<h4>Mobile</h4>
   <img src="./docs/gifs/mobile-screencast.gif" alt="project structure" width="400">
-</p>
+</div>
 
 #### Reference: 
 Matt Holland - https://medium.com/@mtholland10   
