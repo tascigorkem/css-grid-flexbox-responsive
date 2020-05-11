@@ -6,10 +6,14 @@ Link: https://css-grid-flexbox-responsive-tascigorkem.netlify.app/
 
 
 #### Web:
-<img src="./docs/gifs/web-screencast.gif" alt="project structure" width="400"/>
+<p align="center">
+  <img src="./docs/gifs/web-screencast.gif" alt="project structure" width="800"/>
+</p>
   
 #### Mobile:
-<img src="./docs/gifs/mobile-screencast.gif" alt="project structure" width="200">
+<p align="center">
+  <img src="./docs/gifs/mobile-screencast.gif" alt="project structure" width="400">
+</p>
 
 #### Reference: 
 Matt Holland - https://medium.com/@mtholland10   
